@@ -39,13 +39,12 @@ footer {
     font-size: .8em;
 }
 .img-with-text {
-    text-align: justify;
-    width: 280;
-}
+    
+ }
 
 .img-with-text img {
     display: block;
-    margin: 0 auto;
+    margin: 20 auto;
 }
 
 ul.posts { 
