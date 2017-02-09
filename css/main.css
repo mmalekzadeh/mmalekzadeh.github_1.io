@@ -38,6 +38,15 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
 
 ul.posts { 
     margin: 20px auto 40px; 
