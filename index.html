@@ -65,7 +65,6 @@
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
-              <br><br><br>
                <li><a href="https://twitter.com/malekzdeh"><i class="fa fa-twitter"></i></a></li>
                <li><a href="https://github.com/mmalekzadeh"><i class="fa fa-github"></i></a></li>
                <li><a href="http://stackoverflow.com/users/5210098/malekzadeh"><i class="fa fa-stack-overflow"></i></a></li>
@@ -112,6 +111,25 @@
 						   <span></span>
                      <b><span>m.malekzadeh@qmul.ac.uk</span></b>
 					   </p>
+          </div> <!-- end row -->
+          <div class="row">
+            <h4 style="color: cyan">A Random Fact!</h4>
+             <div  id="quote"></div>
+               <script>
+                 (function() {
+                   var quotes = [
+                     {
+                       text: "My <b>Erdős number</b> is <b>3</b> by this <a href=\"./MyErdosNumber.txt\">route!</a>",
+                     },
+                     {
+                       text: "text2",
+                     }
+                   ];
+                   var quote = quotes[Math.floor(Math.random() * quotes.length)];
+                   document.getElementById("quote").innerHTML =
+                     '<p style="color: yellow" >' + quote.text + '</p>'
+                 })();
+               </script>
 
             <!--   </div>
 
