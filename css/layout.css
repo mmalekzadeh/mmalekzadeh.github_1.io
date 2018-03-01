@@ -630,7 +630,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +654,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1004,3 +1004,50 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+/* ------------------------------------------------------------------ */
+/* c. Mycontact Section
+/* ------------------------------------------------------------------ */
+
+#mycontact {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#mycontact a, #mycontact a:visited  { color: #fff; }
+#mycontact a:hover, #mycontact a:focus { color: #11ABB0; }
+
+#mycontact h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#mycontact p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#mycontact .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#mycontact .contact-details { width: 41.66667%; }
+#mycontact .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#mycontact .main-col { padding-right: 5%; }
+#mycontact .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#mycontact .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#mycontact .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
