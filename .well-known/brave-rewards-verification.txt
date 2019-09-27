@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mmalekzadeh.github.io
+Token: edb88859ec6844e8c552275a3c8984ca1929e986ada9a2d1be4a263005994935
